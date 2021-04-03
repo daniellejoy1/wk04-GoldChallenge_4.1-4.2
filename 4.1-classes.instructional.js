@@ -17,7 +17,7 @@
 //* **************************************************
 
 // Create a polygon with side lengths 3, 3, 8, and 8
-class Polygon {
+class polygon {
     constructor(side1, side2, side3, side4) {
       this.side1 = side1;
       this.side2 = side2;
@@ -25,6 +25,17 @@ class Polygon {
       this.side4 = side4;
     }
   }
+const perimeter = {
+    perim (){
+        const pmtr = `${side1}+${side2}+${side3}+${side4}`
+        console.log(pmtr)
+        return pmtr
+    }
+}
 
+let newPoly = new polygon(3, 3, 8, 8)
+// newPoly.perim()
+console.log(newPoly)
   
+// console.log(newPoly.perim());
 // Print the perimeter

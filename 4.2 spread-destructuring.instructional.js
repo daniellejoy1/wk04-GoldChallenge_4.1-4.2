@@ -17,3 +17,7 @@ gifts: [],
 clothing: [],
 grocery: []
 };
+let [groceryList, cleaningSupplies, giftSupplies, clothes] = shoppingList
+
+
+console.log(groceryList)
